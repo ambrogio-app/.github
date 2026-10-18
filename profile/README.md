@@ -14,7 +14,7 @@
 Ambrogio is not tied to one language or one set of models. You choose each piece:
 
 - **Speech recognition**: any [Vosk](https://alphacephei.com/vosk/models) model, in the language you speak.
-- **Voice**: any [Piper voice converted for sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/releases/tag/tts-models), or Kokoro (Italian voices only for now). Two Italian Piper voices come bundled.
+- **Voice**: any [Piper voice or Kokoro model converted for sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx/releases/tag/tts-models). With Kokoro you pick the voice and the language it reads. Two Italian Piper voices come bundled.
 - **Wake word**: any [openWakeWord](https://github.com/dscripka/openWakeWord) model, including one you train yourself, chosen per satellite.
 - **Language model**: each agent has its own model and options. Mistral is currently the only supported provider.
 - **Agents**: as many specialised agents as you want, each with its own instructions and, optionally, an MCP server that gives it tools, for example Home Assistant. An orchestrator picks the right agent for every request.
