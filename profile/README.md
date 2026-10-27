@@ -32,6 +32,7 @@ Ambrogio answers in the language you write in the agents' instructions. Pair it 
 | [ambrogio-satellite](https://github.com/ambrogio-app/ambrogio-satellite) | Voice satellite with wake word, microphone and speaker |
 | [ambrogio-web](https://github.com/ambrogio-app/ambrogio-web) | Optional web chat client |
 | [ambrogio-docs](https://github.com/ambrogio-app/ambrogio-docs) | User documentation site |
+| [ambrogio-homelab-example](https://github.com/ambrogio-app/ambrogio-homelab-example) | Example home installation: one Compose file per service and the agents that use them |
 
 ## Documentation
 
