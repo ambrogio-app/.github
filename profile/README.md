@@ -1,8 +1,5 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo-dark.svg">
-    <img src="logo-light.svg" alt="Ambrogio" width="320">
-  </picture>
+  <img src="logo.svg" alt="Ambrogio" width="160">
 </p>
 
 # Ambrogio
