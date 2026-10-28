@@ -7,7 +7,9 @@
 
 # Ambrogio
 
-**Ambrogio** is an open source home assistant that you host yourself, for example in your homelab. Members of the family talk to it by typing or by voice, from any room and from any device. Ambrogio keeps the conversation history in PostgreSQL and hands each request to the AI agent best suited to it.
+**Ambrogio**: talk to it like Alexa, chat with it like ChatGPT — one self-hosted AI assistant for your whole homelab. Multi-agent by design: each agent you configure handles one job, such as the house, music, weather or your documents, using the services you already host.
+
+Members of the family talk to it by typing or by voice, from any room and from any device, and every conversation is kept on your server.
 
 ## Your models, your agents
 
@@ -22,9 +24,7 @@ You choose each piece:
 
 The installation chooses the language, Italian or English: the agents answer in it and the backend speaks it. The texts Ambrogio writes itself, in the backend, the terminal client and the web chat, are available in English and Italian. The satellite speaks no messages of its own: it signals problems with a tone.
 
-Ambrogio answers in English or Italian. No audio leaves your network, and with LLMs on your own server nothing does.
-
-> Ambrogio is in early development. The configuration may still change between releases.
+> Ambrogio is in early development. The configuration format may still change between versions.
 
 ## Repositories
 
@@ -34,10 +34,10 @@ Ambrogio answers in English or Italian. No audio leaves your network, and with L
 | [ambrogio-backend](https://github.com/ambrogio-app/ambrogio-backend) | Conversation server, agents, speech, PostgreSQL archive, Memory MCP server, public protocol |
 | [ambrogio-cli](https://github.com/ambrogio-app/ambrogio-cli) | Terminal chat client |
 | [ambrogio-satellite](https://github.com/ambrogio-app/ambrogio-satellite) | Voice satellite with wake word, microphone and speaker |
-| [ambrogio-homelab-example](https://github.com/ambrogio-app/ambrogio-homelab-example) | A complete homelab installation, one Compose file per service |
+| [ambrogio-web](https://github.com/ambrogio-app/ambrogio-web) | Optional web chat client |
 | [ambrogio-docs](https://github.com/ambrogio-app/ambrogio-docs) | User documentation site |
 | [ambrogio-homelab-example](https://github.com/ambrogio-app/ambrogio-homelab-example) | Example home installation: one Compose file per service and the agents that use them |
 
 ## Documentation
 
-Installation, configuration and concepts are documented at <https://ambrogio-app.github.io/ambrogio-docs/>.
+Installation, configuration and architecture are documented at <https://ambrogio-app.github.io/ambrogio-docs/>.
