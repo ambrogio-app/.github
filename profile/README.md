@@ -38,3 +38,7 @@ The installation chooses the language, Italian or English: the agents answer in 
 ## Documentation
 
 Installation, configuration and architecture are documented at <https://ambrogio-app.github.io/ambrogio-docs/>.
+
+## License
+
+Ambrogio is open source: every repository is released under the MIT license.
